@@ -74,6 +74,7 @@
 	        <classes dir="build/classes"/>
 	    </war>
     	<copy file="dist/SkyFallDemo.war" todir="../"/>
+		<move file="../SkyFallDemo.war" tofile="CopiedAndRenamedFile.war"/>
 	</target>
 	
 	<target name="clean">
