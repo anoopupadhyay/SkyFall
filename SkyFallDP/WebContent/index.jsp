@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Hello from Anand ! Whats up?</h1>
+<h1>Hello from Prateek ! Whats up?</h1>
 </body>
 </html>
