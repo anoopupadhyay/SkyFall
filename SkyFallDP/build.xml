@@ -68,13 +68,13 @@
 	</target>
 	
 	<target name="war" depends="compile">
-	    <war destfile="dist/SkyFallDemo.war" webxml="WebContent/WEB-INF/web.xml">
+	    <war destfile="dist/TheCoffeShop.war" webxml="WebContent/WEB-INF/web.xml">
 	        <fileset dir="WebContent"/>
 	        <lib dir="WebContent/WEB-INF/lib"/>
 	        <classes dir="build/classes"/>
 	    </war>
-    	<copy file="dist/SkyFallDemo.war" todir="../"/>
-		<move file="../SkyFallDemo.war" tofile="CopiedAndRenamedFile.war"/>
+    	<copy file="dist/TheCoffeShop.war" todir="../"/>
+		<move file="../TheCoffeShop.war" tofile="CopiedAndRenamedFile.war"/>
 	</target>
 	
 	<target name="clean">
