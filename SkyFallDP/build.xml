@@ -74,7 +74,7 @@
 	        <classes dir="build/classes"/>
 	    </war>
     	<copy file="dist/TheCoffeShop.war" todir="../"/>
-		<!--move file="../TheCoffeShop.war" tofile="CopiedAndRenamedFile.war"/-->
+		<move file="../TheCoffeShop.war" tofile="CopiedAndRenamedFile.war"/>
 	</target>
 	
 	<target name="clean">
